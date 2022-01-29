@@ -1,0 +1,264 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #f5c903;
+  
+}
+
+.white-section {
+  background-color: rgb(241, 241, 241);
+}
+
+/* Navigation Bar */
+#navitem{
+  color: #6b6262;
+}
+
+.navbar {
+  padding: 1rem;
+  background-color: #f8cb00c7;
+  color: #0f0f0f;
+  
+  
+  
+  
+ 
+  
+ position: fixed;
+ top: 0%;
+
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0f0f0f;
+ 
+  
+  
+}
+.big-heading{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+  color: #0f0f0f;
+}
+.nav-link{
+  color: #0f0f0f;
+
+}
+
+
+.nav-item {
+  padding: 10px;
+  margin: 10px;
+  color: #0f0f0f;
+
+  
+}
+.nav-item:hover
+
+.nav-link {
+  font-size: 2rem;
+  font-family: "Montserrat-Light";
+  
+  
+
+
+}
+.nav-link:nth-child(1)
+{
+  
+	transition: all .5s ease 0s;
+  padding: 10px;
+  margin: 10px;
+}
+.nav-link:nth-child(1):hover
+{
+  background: #ebb135;
+	border-radius: 8px;
+	transition: all .5s ease 0s;
+
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #f1c708;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 100%;
+  size: 100%;
+left: 30%;
+  
+  
+  position: absolute;
+ 
+}
+.title{
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #f1c708;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #cc9600;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.row{
+  padding: 50px;
+  margin-top: 30px;
+}
+.title{
+  
+  text-align: center; 
+  font-size: 2.5rem;
+  
+}
+.card{
+  background-color: rgba(247, 239, 214, 0.404);
+  border-radius: 20px;
+
+  
+}
+.card-header{
+  background-color: rgba(243, 204, 98, 0.664);
+  border-radius: 30px;
+}
+.img-thumbnail
+{
+  border-radius: 40px;
+  height: 150px;
+  margin: 20px;
+}
+.feature-title{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
